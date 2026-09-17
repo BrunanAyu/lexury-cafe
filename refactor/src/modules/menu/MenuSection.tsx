@@ -61,7 +61,7 @@ export function MenuSection() {
          
         </div>
 
-        <div className="-mx-1 flex justify-center gap-2 overflow-x-auto px-1 py-8 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+        <div className="flex gap-2 overflow-x-auto px-1 py-8 [scrollbar-width:none] [scroll-behavior:smooth] [&::-webkit-scrollbar]:hidden">
           {menuCategories.map((category) => {
             const isActive = activeCategory === category;
             return (
@@ -70,7 +70,7 @@ export function MenuSection() {
                 type="button"
                 onClick={() => setActiveCategory(category)}
                 aria-pressed={isActive}
-                className={`shrink-0 border px-4 py-3 text-[0.62rem] uppercase tracking-[0.16em] transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-walnut ${isActive ? "border-walnut bg-walnut text-highlight" : "border-walnut/25 text-walnut hover:border-walnut hover:bg-walnut/5"}`}
+                className={`shrink-0 whitespace-nowrap border px-4 py-3 text-[0.62rem] uppercase tracking-[0.16em] transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-walnut ${isActive ? "border-walnut bg-walnut text-highlight" : "border-walnut/25 text-walnut hover:border-walnut hover:bg-walnut/5"}`}
               >
                 {category}
               </button>
