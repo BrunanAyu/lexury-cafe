@@ -5,7 +5,7 @@ import fruit from  "@/assets/fresh-fruit-tart.jpg";
 import mango from  "@/assets/fresh-mano-juice.jpg";
 import checolate from  "@/assets/Signature-Chocolate-Cake.jpg";
 import chicken from  "@/assets/Herbed-Chicken-Plate.jpg";
-import avocado from  "@/assets/Avocado-toast.jpg";
+import avocado from  "@/assets/Avocado-Toast.jpg";
 
 export type MenuCategory = "Coffee" | "Breakfast" | "Main Dishes" | "Desserts" | "Fresh Juices";
 
