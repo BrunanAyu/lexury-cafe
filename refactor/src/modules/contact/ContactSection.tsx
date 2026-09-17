@@ -71,15 +71,6 @@ export function ContactSection() {
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
             />
-            
-            <a
-              href={siteConfig.mapsUrl}
-              target="_blank"
-              rel="noreferrer"
-              className="absolute top-5 right-5 inline-flex items-center gap-3 border border-gold/50 bg-walnut-dark/95 px-4 py-3 text-[0.65rem] uppercase tracking-[0.15em] text-highlight transition-colors hover:border-gold hover:text-gold"
-            >
-              Open Google Maps <ArrowRight className="h-4 w-4" />
-            </a>
           </div>
         </div>
       </div>
