@@ -3,9 +3,9 @@ import Macchiato from "@/assets/Macchiato.jpg";
 import Breakfast from "@/assets/Breakfast.jpg";
 import fruit from  "@/assets/fresh-fruit-tart.jpg";
 import mango from  "@/assets/fresh-mano-juice.jpg";
-import checolate from  "@/assets/signature-chocolate-cake.jpg";
-import chicken from  "@/assets/herbed-chicken-plate.jpg";
-import avocado from  "@/assets/avocado-toast.jpg";
+import checolate from  "@/assets/Signature-Chocolate-Cake.jpg";
+import chicken from  "@/assets/Herbed-Chicken-Plate.jpg";
+import avocado from  "@/assets/Avocado-toast.jpg";
 
 export type MenuCategory = "Coffee" | "Breakfast" | "Main Dishes" | "Desserts" | "Fresh Juices";
 
